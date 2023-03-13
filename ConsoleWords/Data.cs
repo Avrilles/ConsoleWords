@@ -8,18 +8,18 @@ namespace words
         {
             var engWords = new List<Word>()
             {
-                new Word(Guid.NewGuid(), "Word", "Слово", 0),
-                new Word(Guid.NewGuid(), "Green", "Зелений", 0),
-                new Word(Guid.NewGuid(), "Red", "Червоний", 0),
+                new Word(Guid.NewGuid(), "Word", "Слово", 30),
+                new Word(Guid.NewGuid(), "Green", "Зелений", 10),
+                new Word(Guid.NewGuid(), "Red", "Червоний", 30),
                 new Word(Guid.NewGuid(), "Black", "Чорний", 0),
             };
 
             var ukrWords = new List<Word>()
             {
-                new Word(Guid.NewGuid(), "Слово", "Word", 0),
-                new Word(Guid.NewGuid(), "Зелений", "Green", 0),
+                new Word(Guid.NewGuid(), "Слово", "Word", 60),
+                new Word(Guid.NewGuid(), "Зелений", "Green", 20),
                 new Word(Guid.NewGuid(), "Червоний", "Red", 0),
-                new Word(Guid.NewGuid(), "Чорний", "Black", 0),
+                new Word(Guid.NewGuid(), "Чорний", "Black", 50),
             };
 
             return new List<Language>()

@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace words.Models
+﻿namespace words.Models
 {
     internal class Word
     {
@@ -19,6 +13,11 @@ namespace words.Models
             Title = title;
             Translation = translation;
             Level = level;
+        }
+
+        public override string ToString()
+        {
+            return $"{Title} - {Translation}";
         }
     }
 }
