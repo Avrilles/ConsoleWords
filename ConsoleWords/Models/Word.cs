@@ -20,5 +20,10 @@ namespace words.Models
             Translation = translation;
             Level = level;
         }
+
+        public override string ToString()
+        {
+            return $"{Title} - {Translation} : {Level}%";
+        }
     }
 }

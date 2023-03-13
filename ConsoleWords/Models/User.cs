@@ -12,5 +12,15 @@
             Name = name;
             Languages = languages;
         }
+
+        public string getInfo()
+        {
+            string info = $"{Name}\n";
+            foreach (var language in Languages)
+            {
+                info += $"\n{language.Title} : {language.getAverageLevel()}";
+            }
+            return info;
+        }
     }
 }
