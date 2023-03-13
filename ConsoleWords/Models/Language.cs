@@ -23,7 +23,6 @@ namespace words.Models
         {
             return Words.Sum(x => x.Level) / Words.Count;
         }
-
         public override string ToString()
         {
             return $"{Title} : {getAverageLevel()}";
